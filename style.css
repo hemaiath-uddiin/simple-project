@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+  body { 
+    font-family: 'Atkinson Hyperlegible', sans-serif; 
+    background:#f1f1f1f1
+  }
+
+ 
+    *{ 
+        padding:0px; 
+        margin:0px; 
+        box-sizing: border-box;
+    }
+ 
+  ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+  }
+
+  li {
+      display: flex;
+  }
+  
+  li {
+      padding: 10px;
+      font-weight: bold;
+  }
+  
+  nav {
+      background: #d7baba;
+  } 
+  img {
+    width: 500px;
+}
+
+.about_wraper {
+    display: flex;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.title {
+    padding: 10px;
+}
+
+.title p {
+    padding: 10px;
+    font-weight: bold;
+    line-height: 23px;
+} 
+.main_service {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.service_description:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.service_description {
+    padding: 10px;
+    background: orange;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: -1px -1px 0px 2px #4ccf4c;
+} 
+.service-tile {
+    text-align: center;
+    color: rebeccapurple;
+    text-transform: uppercase;
+}
